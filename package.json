@@ -1,7 +1,7 @@
 {
-  "name": "plugin-sample",
+  "name": "藏趣云 - 网页剪藏标注同步助手",
   "version": "0.3.7",
-  "description": "This is a sample plugin for Siyuan (https://b3log.org/siyuan)",
+  "description": "藏趣云的网页剪藏标注同步至SiYuan中",
   "main": ".src/index.js",
   "scripts": {
     "lint": "eslint . --fix --cache",

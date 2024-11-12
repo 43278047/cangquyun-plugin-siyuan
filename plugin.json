@@ -1,6 +1,6 @@
 {
-  "name": "plugin-sample",
-  "author": "Vanessa",
+  "name": "cangquyun-plugin-siyuan",
+  "author": "阿浩",
   "url": "https://github.com/siyuan-note/plugin-sample",
   "version": "0.3.7",
   "minAppVersion": "3.1.11",
@@ -20,12 +20,12 @@
     "desktop-window"
   ],
   "displayName": {
-    "default": "Plugin Sample",
-    "zh_CN": "插件示例"
+    "default": "CangQuYun",
+    "zh_CN": "藏趣云 - 网页剪藏标注同步助手"
   },
   "description": {
     "default": "This is a plugin sample",
-    "zh_CN": "这是一个插件示例"
+    "zh_CN": "藏趣云的网页剪藏标注同步至SiYuan中"
   },
   "readme": {
     "default": "README.md",

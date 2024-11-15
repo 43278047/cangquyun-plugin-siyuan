@@ -57,7 +57,15 @@ export default class CangQuYunPlugin extends Plugin {
                 this.syncData();
             }
         })
-
+        this.addCommand({
+            langKey: "cqysync",
+            langText: '触发同步任务',
+            hotkey: "⇧⌘D",
+            customHotkey: "Shift+Cmd+D", // 使用自定义的快捷键
+            callback: () => {
+                this.syncData();
+            },
+        });
 
         // 保存按钮触发
         this.setting = new Setting({
